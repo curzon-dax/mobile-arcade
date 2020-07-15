@@ -1,3 +1,6 @@
+/**
+ * Alyoo
+ */
 let Diplomatic_War_Coin_Flip = 0
 let Diplomacy_Coin_Flip = 0
 let Button_Pressed_2 = 0
