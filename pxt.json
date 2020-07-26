@@ -1,33 +1,19 @@
 {
-    "name": "Mobile Arcade",
-    "description": "",
+    "name": "mobile-computer",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
     "files": [
+        ".vscode/settings.json",
+        ".vscode/tasks.json",
+        "README.md",
         "main.blocks",
         "main.ts",
-        "README.md",
-        "main.py",
-        null
-    ],
-    "testFiles": [
-        "test.ts"
+        "test.ts",
+        "tsconfig.json"
     ],
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj",
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "open": 1,
-                    "whitelist": 0,
-                    "security_level": null
-                }
-            }
-        }
-    }
+    "preferredEditor": "blocksprj"
 }
